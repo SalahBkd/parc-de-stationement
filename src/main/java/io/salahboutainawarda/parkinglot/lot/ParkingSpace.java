@@ -1,7 +1,6 @@
-package io.javabrains.parkinglot.lot;
+package io.salahboutainawarda.parkinglot.lot;
 
-import io.javabrains.parkinglot.vehicles.Vehicle;
-import io.javabrains.parkinglot.vehicles.VehicleType;
+import io.salahboutainawarda.parkinglot.vehicles.Vehicle;
 
 public class ParkingSpace {
 
@@ -41,7 +40,6 @@ public class ParkingSpace {
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
-
 
     public boolean park(Vehicle vehicle) {
         return false;

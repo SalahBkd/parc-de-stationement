@@ -1,4 +1,4 @@
-package io.javabrains.parkinglot.vehicles;
+package io.salahboutainawarda.parkinglot.vehicles;
 
 public enum VehicleType {
     BIKE,

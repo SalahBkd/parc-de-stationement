@@ -1,4 +1,4 @@
-package io.javabrains.parkinglot.lot;
+package io.salahboutainawarda.parkinglot.lot;
 
 public enum ParkingSpaceType {
     BIKE,

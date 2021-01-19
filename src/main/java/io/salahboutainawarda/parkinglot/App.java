@@ -1,10 +1,10 @@
-package io.javabrains.parkinglot;
+package io.salahboutainawarda.parkinglot;
 
-import io.javabrains.parkinglot.lot.ParkingLot;
-import io.javabrains.parkinglot.lot.ParkingSpace;
-import io.javabrains.parkinglot.lot.ParkingSpaceType;
-import io.javabrains.parkinglot.vehicles.VehicleFactory;
-import io.javabrains.parkinglot.vehicles.VehicleType;
+import io.salahboutainawarda.parkinglot.lot.ParkingLot;
+import io.salahboutainawarda.parkinglot.lot.ParkingSpace;
+import io.salahboutainawarda.parkinglot.lot.ParkingSpaceType;
+import io.salahboutainawarda.parkinglot.vehicles.VehicleFactory;
+import io.salahboutainawarda.parkinglot.vehicles.VehicleType;
 
 import java.util.Arrays;
 
@@ -20,6 +20,7 @@ public class App {
                     new ParkingSpace(ParkingSpaceType.BIKE, true)
             )
         );
+
 
         parkingLot.getParkingAttendant().park(VehicleFactory.createVehicle(VehicleType.BIKE, false));
         parkingLot.getParkingAttendant().park(VehicleFactory.createVehicle(VehicleType.COMPACT, false));

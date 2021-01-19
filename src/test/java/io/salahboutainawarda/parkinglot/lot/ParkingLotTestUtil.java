@@ -1,10 +1,9 @@
-package io.javabrains.parkinglot.lot;
+package io.salahboutainawarda.parkinglot.lot;
 
-import io.javabrains.parkinglot.vehicles.Vehicle;
-import io.javabrains.parkinglot.vehicles.VehicleFactory;
-import io.javabrains.parkinglot.vehicles.VehicleType;
+import io.salahboutainawarda.parkinglot.vehicles.Vehicle;
+import io.salahboutainawarda.parkinglot.vehicles.VehicleFactory;
+import io.salahboutainawarda.parkinglot.vehicles.VehicleType;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
